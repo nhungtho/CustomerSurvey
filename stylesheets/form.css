@@ -1,0 +1,117 @@
+.body {
+margin : auto;
+padding : 5px;
+height : 100%;
+width : 100%;
+}
+
+.container
+{   
+	margin : auto;
+	text-align:center;
+    background-color: #fff;
+/*     background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+    background-image: -webkit-linear-gradient(top, #fff, #eee);
+    background-image: -moz-linear-gradient(top, #fff, #eee);
+    background-image: -ms-linear-gradient(top, #fff, #eee);
+    background-image: -o-linear-gradient(top, #fff, #eee);
+    background-image: linear-gradient(top, #fff, #eee);  
+    padding: 10px;
+    z-index: 0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;  
+    -webkit-box-shadow:
+          0 0 2px rgba(0, 0, 0, 0.2),
+          0 1px 1px rgba(0, 0, 0, .2),
+          0 3px 0 #fff,
+          0 4px 0 rgba(0, 0, 0, .2),
+          0 6px 0 #fff,  
+          0 7px 0 rgba(0, 0, 0, .2);
+    -moz-box-shadow:
+          0 0 2px rgba(0, 0, 0, 0.2),  
+          1px 1px   0 rgba(0,   0,   0,   .1),
+          3px 3px   0 rgba(255, 255, 255, 1),
+          4px 4px   0 rgba(0,   0,   0,   .1),
+          6px 6px   0 rgba(255, 255, 255, 1),  
+          7px 7px   0 rgba(0,   0,   0,   .1);
+    box-shadow:
+          0 0 2px rgba(0, 0, 0, 0.2),  
+          0 1px 1px rgba(0, 0, 0, .2),
+          0 3px 0 #fff,
+          0 4px 0 rgba(0, 0, 0, .2),
+          0 6px 0 #fff,  
+          0 7px 0 rgba(0, 0, 0, .2); */
+}
+
+.container:before
+{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    -moz-box-shadow: 0 0 0 1px #fff;
+    -webkit-box-shadow: 0 0 0 1px #fff;
+    box-shadow: 0 0 0 1px #fff;
+}
+
+@media screen and (max-width: 480px) {
+	.textstyle6 {font-size:13px;}
+	table tr td {font-size:13px;}
+	
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  body { width:100%;margin:auto;}
+  /* and other declarations */
+}
+@media screen and (min-width: 1025px) {
+  body { width:60%;margin:auto;}
+  
+  /* and other declarations */
+}
+@media print {
+  body { width:100%; }
+  /* and other declarations */
+}
+table { width: 90%; margin-left:5%; border:none; padding:none;}
+
+.btn {
+  width: 150px;
+  height: 30px;
+  border: 2px solid #E3E3DF;
+  background-color:#938F8D;
+  color:#FFF;
+  font-weight: bold;
+}
+.btn:hover {
+  border-color: #000;
+}
+.confirmation-form {
+	display:none;
+}
+.comment {
+	display:none;
+}
+.name {
+	width:90px;
+	text-align: left;
+	margin-right:10px;
+	}
+
+input {
+-moz-border-radius: 10px; /* rounded corners in Mozilla browsers, adjust to a higher value for more roundness */
+-webkit-border-radius: 10px; /* works in Webkit based browsers */
+}
+.warning {
+	color: #930;
+	text-decoration: underline;
+	font-weight: bolder;
+	font-size: 16px;
+	}
+#myDiv  {
+	display:none;
+}
